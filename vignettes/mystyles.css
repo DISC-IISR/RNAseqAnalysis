@@ -1,0 +1,68 @@
+body {
+    border: 1px solid FloralWhite;
+    text-align: left;
+    color: Navy;
+    background-color: White;
+    padding-top: 5px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    font-family: "Times New Roman", Times, serif;
+}
+h1{
+
+    border: 1px solid Turquoise;
+    text-align: center;
+    color: White;
+    background-color: Turquoise;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+h2{
+    border: 1px solid Tomato;
+    text-align: left;
+    color: FloralWhite;
+    background-color: Tomato;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+h3{
+    border: 1px solid SlateBlue;
+    text-align: left;
+    color: FloralWhite;
+    background-color: SlateBlue;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+h4{
+    border: 1px solid Violet;
+    text-align: left;
+    color: FloralWhite;
+    background-color: Violet;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+p{
+    text-align: justify;
+    color: Navy;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+p.caption{
+    font-size: 11pt !important;
+}
+.main-container{
+    max-width: 1000px !important;
+}
