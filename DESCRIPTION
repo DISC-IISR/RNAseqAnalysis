@@ -1,0 +1,17 @@
+Package: RNAseqAnalysis
+Type: Package
+Title: A List of Relevent Functions RNA-seq data analysis
+Version: 0.1.0
+Date: 2018-09-21
+Author: Blessy M Baby
+Maintainer: DISC <disc.iisr2000@gmail.com>
+Description: The package RNAseqAnalysis does the complete analysis of RNA seq data starting from raw reads. It provides the user with differnt functions like generation of qc report, filtering,the assembly and annotation, differential expression analysis and heatmap.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.4.0), BiocParallel, GenomicFeatures, Rqc, knitr, biomaRt, systemPipeR
+Imports: utils, grDevices, AnnotationDbi, stats, graphics, ShortRead, lattice, gplots, RColorBrewer, edgeR, SummarizedExperiment, ASpli, ggplot2, easyRNASeq, GenomicAlignments, ape, DESeq2, vsn, pheatmap, qrqc
+VignetteBuilder: knitr
+Suggests: BiocStyle, knitr
+biocViews: RNASeq
+RoxygenNote: 6.0.1
