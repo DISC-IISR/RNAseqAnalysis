@@ -1,0 +1,19 @@
+# Project ID: Arabidopsis - Pseudomonas alternative splicing study (SRA: SRP010938; PMID: 24098335)
+# The following line(s) allow to specify the contrasts needed for comparative analyses, such as DEG identification. All possible comparisons can be specified with 'CMPset: ALL'.
+# <CMP> CMPset1: N1-U1, N2-U1, N1-M1, N1-M2, N1-M3, N1-M4, N2-M1, N2-M2, N2-M3, N2-M4
+# <CMP> CMPset2: ALL
+FileName1	FileName2	SampleName	Factor	SampleLong	Experiment	Date
+./dataset/SRR5253697_1.fastq.gz	./dataset/SRR5253697_2.fastq.gz	N1A	N1	Mock.1h.A	1	23-Mar-2012
+./dataset/SRR5253696_1.fastq.gz	./dataset/SRR5253696_2.fastq.gz	N1B	N1	Mock.1h.B	1	23-Mar-2012
+./dataset/SRR5253695_1.fastq.gz	./dataset/SRR5253695_2.fastq.gz	N2A	N2	Avr.1h.A	1	23-Mar-2012
+./dataset/SRR5253694_1.fastq.gz	./dataset/SRR5253694_2.fastq.gz	N2B	N2	Avr.1h.B	1	23-Mar-2012
+./dataset/SRR5253692_1.fastq.gz	./dataset/SRR5253692_2.fastq.gz	M1A	M1	Vir.1h.A	1	23-Mar-2012
+./dataset/SRR5253691_1.fastq.gz	./dataset/SRR5253691_2.fastq.gz	M1B	M1	Vir.1h.B	1	23-Mar-2012
+./dataset/SRR5253690_1.fastq.gz	./dataset/SRR5253690_2.fastq.gz	M2A	M2	Mock.6h.A	1	23-Mar-2012
+./dataset/SRR5253689_1.fastq.gz	./dataset/SRR5253689_2.fastq.gz	M2B	M2	Mock.6h.B	1	23-Mar-2012
+./dataset/SRR5253688_1.fastq.gz	./dataset/SRR5253688_2.fastq.gz	M3A	M3	Avr.6h.A	1	23-Mar-2012
+./dataset/SRR5253687_1.fastq.gz	./dataset/SRR5253687_2.fastq.gz	M3B	M3	Avr.6h.B	1	23-Mar-2012
+./dataset/SRR5253686_1.fastq.gz	./dataset/SRR5253686_2.fastq.gz	M4A	M4	Vir.6h.A	1	23-Mar-2012
+./dataset/SRR5253685_1.fastq.gz	./dataset/SRR5253685_2.fastq.gz	M4B	M4	Vir.6h.B	1	23-Mar-2012
+./dataset/SRR5253684_1.fastq.gz	./dataset/SRR5253684_2.fastq.gz	U1A	U1	Mock.12h.A	1	23-Mar-2012
+./dataset/SRR5253683_1.fastq.gz	./dataset/SRR5253683_2.fastq.gz	U1B	U1	Mock.12h.B	1	23-Mar-2012
